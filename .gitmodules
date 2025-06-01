@@ -2,7 +2,3 @@
 	path = backend/libraries/paho.mqtt.cpp
 	url = https://github.com/eclipse/paho.mqtt.cpp.git
 	branch = 17ff3dc0270738adc710667be44847eebc038ae0
-[submodule "backend/libraries/paho.mqtt.c"]
-	path = backend/libraries/paho.mqtt.c
-	url = https://github.com/eclipse/paho.mqtt.c.git
-	branch = 2150ba29d9df24ad1733c460eb099f292af84ee5
