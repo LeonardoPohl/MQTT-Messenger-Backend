@@ -12,10 +12,7 @@ RUN apt update && apt install -y \
 
 # Set the working directory
 WORKDIR /app
-
-# Copy the project source code
-RUN git submodule update --init --recursive
-
+RUN git clone --recurse-submodules https://github.com/LeonardoPohl/MQTT-Messenger-Backend .
 # Build libs
 
 ## paho-mqtt-cpp
